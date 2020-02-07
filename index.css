@@ -1,0 +1,190 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Source-Sans Pro', 
+  }
+  p {
+    font-family: 'Source-Sans Pro', 
+  }
+  
+  
+  
+  
+  
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+    
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+    position: relative;
+    right: 40px;
+  }
+  
+  .nav-link {
+    color: #000000;
+  }
+  
+  /* Navigation dropdown menu */
+  
+  
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .jumbotron  {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+  }
+  
+  
+  .icons {
+    float: right;
+    width: 10%;
+    position: absolute;
+    right: 65px;
+    top: 55px;
+    
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    position: relative;
+    left: 200px;
+    bottom: -50px;
+  }
+  
+  
+  
+  .display-4 {
+      width: 384px;
+      height: 64px;
+      font-family: SourceSansPro;
+      font-size: 30px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+      position: absolute;
+      left: 80px;
+      bottom: 470px;
+    }
+  
+    .lead {
+      width: 425px;
+    height: 200px;
+    font-family: SourceSansPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6e6464;
+    position: absolute;
+    left: 80px;
+    bottom: 260px;
+    }
+  
+    .Get-In-Touch {
+      position: absolute;
+      bottom: 280px;
+      left: 78px;
+      width: 10%;
+    }
+  
+    .Download-My-Portfolio {
+      position: absolute;
+      bottom: 280px;
+      left: 245px;
+      width: 13%;
+    }
+  
+    .box {
+      width:100%;
+       background-color:#6960F2;
+       height:750px;
+    }
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.image {
+  position: relative;
+  left: 140px;
+  top: 30px;
+  padding: 25px;
+  
+}
+
+.image-2 {
+  position: relative;
+  top: 50px;
+  left: 140px;
+  padding: 25px;
+}
+  .sectionHeading {
+    color: white;
+    position: absolute;
+    left: 565px;
+    top: 500px;
+  }
+  
+ 
+  
+  /* Jumbotron copy */
+  
+  
+  
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
