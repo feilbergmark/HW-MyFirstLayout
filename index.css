@@ -63,14 +63,7 @@ h1, h2, h3 , h4, h5, h6 {
   }
   
   
-  .icons {
-    float: right;
-    width: 10%;
-    position: absolute;
-    right: 65px;
-    top: 55px;
-    
-  }
+ 
   
   .center {
     display: block;
@@ -135,7 +128,7 @@ h1, h2, h3 , h4, h5, h6 {
     .box {
       width:100%;
        background-color:#6960F2;
-       height:750px;
+       height:820px;
     }
 
 
@@ -153,14 +146,14 @@ h1, h2, h3 , h4, h5, h6 {
 .image {
   position: relative;
   left: 140px;
-  top: 30px;
+  top: 90px;
   padding: 25px;
   
 }
 
 .image-2 {
   position: relative;
-  top: 50px;
+  top: 90px;
   left: 140px;
   padding: 25px;
 }
@@ -168,11 +161,32 @@ h1, h2, h3 , h4, h5, h6 {
     color: white;
     position: absolute;
     left: 565px;
-    top: 500px;
+    top: 555px;
   }
   
  
+  .box-2 {
+    width:100%;
+     background-color:#F7F7F7;
+     height:580px;
+  }
+
+  .row-2 {
+    display: flex;
+  }
   
+  .column-2 {
+    flex: 33.33%;
+    padding: 20px;
+    margin-left: 20px;
+  }
+
+  .image-3 {
+    position: relative;
+    top: 120px;
+    left: 140px;
+    padding: 25px;
+  }
   /* Jumbotron copy */
   
   
@@ -180,11 +194,59 @@ h1, h2, h3 , h4, h5, h6 {
   .content {
     padding: 50px;
   }
-  .sectionHeading {
-    text-align: center;
+  
+  
+  
+  .sectionHeading-2 {
+    color: black;
+    position: absolute;
+    left: 465px;
+    top: 1380px;
   }
   
+  .box-3 {
+    width:100%;
+     background-color:white;
+     height:350px;
+  }
   
-  
-  
-  
+#footer-text {
+  position: absolute;
+  left: 150px;
+  top: 1960px;
+  font-size: 22px;
+}
+
+.footer-text {
+  position: absolute;
+  left: 150px;
+  top: 2020px;
+}
+
+#footer-text-2 {
+  position: absolute;
+  left: 650px;
+  top: 1960px;
+  font-size: 22px;
+}
+
+.footer-text-2 {
+  position: absolute;
+  left: 650px;
+  top: 2020px;
+}
+
+.footer-text-3 {
+  position: absolute;
+  left: 900px;
+  top: 1960px;
+  font-size: 22px;
+}
+
+.icons {
+  float: right;
+  width: 9%;
+  position: absolute;
+  left: 900px;
+  top: 2020px;
+}
